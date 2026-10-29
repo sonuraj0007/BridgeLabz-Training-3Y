@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Validation</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 500px; margin: 35px auto; padding: 0 16px; }
+    label { display: block; margin-top: 14px; }
+    input { display: block; width: 100%; box-sizing: border-box; padding: 10px; margin-top: 5px; }
+    button { margin-top: 16px; padding: 10px 15px; }
+    #messages { white-space: pre-line; }
+  </style>
+</head>
+<body>
+  <h1>Login Form Validation</h1>
+  <form id="loginForm" novalidate>
+    <label>Username <input name="username" autocomplete="username"></label>
+    <label>Password <input name="password" type="password" autocomplete="current-password"></label>
+    <button type="submit">Log In</button>
+  </form>
+  <p id="messages" role="status"></p>
+  <script src="Q7_Login_Form_Validation.js"></script>
+</body>
+</html>
